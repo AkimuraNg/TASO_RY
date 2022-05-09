@@ -15,6 +15,7 @@ git rebase
 ## Description
 The main objective of this project is to re-create a webpage for TAMK's TASO club as there are some problems happen with TASO current webpage. The new website can be a new one with new design and features, or can be a replica of the existing website.
 <br> The development software which will be used for the new website can be REACT, this will help the maintenances easier.
+<br> The main frontend framework will be used for this project will be [Bootstrap 5.0](https://getbootstrap.com/)
 ## Badge
 Will be listed in the future.
 ## Visuals
