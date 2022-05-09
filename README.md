@@ -1,6 +1,6 @@
 # TASO_RY B
 
-GitLab repository for TASO RY of Tampere University of Applied Science.
+GitLab repository for TASO RY of Tampere University of Applied Science (TAMK).
 ## Working on the project
 For project contributors, use the git clone command to install the project repository.
 <br> Cloning the project repository:
@@ -13,7 +13,8 @@ git fetch
 git rebase
 ```
 ## Description
-The goal of this project is to create (or fix) TAMK TASO RY webpage. React could be used for this project.
+The main objective of this project is to re-create a webpage for TAMK's TASO club as there are some problems happen with TASO current webpage. The new website can be a new one with new design and features, or can be a replica of the existing website.
+The development software which will be used for the new website can be REACT, this will help the maintenances easier.
 ## Badge
 Will be listed in the future.
 ## Visuals
