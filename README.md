@@ -1,7 +1,31 @@
 # TASO_RY B
 
 GitLab repository for TASO RY of Tampere University of Applied Science.
+## Working on the project
+For project contributors, use the git clone command to install the project repository.
+<br> Cloning the project repository:
+```
+git clone https://gitlab.tamk.cloud/tamk-projects/summer-projects/2022/028-taso-webpage-project-b.git
+```
+<br> Fetch and rebase the project repository before working (IMPORTANT!)
+```
+git fetch
+git rebase
+```
+## Description
+The goal of this project is to create (or fix) TAMK TASO RY webpage. React could be used for this project.
+## Badge
+Will be listed in the future.
+## Visuals
+Will be listed in the future.
 
+## Authors and Acknowledgement
+Project Manager: Sviatoslav Vasev.
+<br> Project Customer: Juuso Torikka.
+<br> Contributors: 
+    <br> Hoang Nhat Duy Nguyen
+    <br> Tien Dat Nguyen
+    <br> Ayesha Siddiqua
 ## Add your files
 
 - [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
@@ -33,21 +57,3 @@ Use the built-in continuous integration in GitLab.
 - [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
 
 ***
-
-## Description
-The goal of this project is to create (or fix) TAMK TASO RY webpage. React could be used for this project.
-## Badge
-Will be listed in the future.
-## Visuals
-Will be listed in the future.
-## Installation
-For project contributors, use the git clone command to install the project repository.
-```
-git clone https://gitlab.tamk.cloud/tamk-projects/summer-projects/2022/028-taso-webpage-project-b.git
-```
-## Authors and Acknowledgement
-Project Manager: Sviatoslav Vasev.
-<br> Project Customer: Juuso Torikka.
-<br> Contributors: 
-    <br> Hoang Nhat Duy Nguyen
-    <br> Tien Dat Nguyen
