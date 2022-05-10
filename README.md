@@ -1,6 +1,7 @@
 # TASO_RY B
 
 GitLab repository for TASO RY of Tampere University of Applied Science (TAMK).
+
 ## Working on the project
 For project contributors, use the git clone command to install the project repository.
 <br> Cloning the project repository:
@@ -11,6 +12,20 @@ git clone https://gitlab.tamk.cloud/tamk-projects/summer-projects/2022/028-taso-
 ```
 git fetch
 git rebase
+```
+<br> Working remotely with branches. Before working the project, create a branch and work on that branch. It is not allow to work on the main branch. Create a merge request on GitLab after pushing on the working branch.
+```
+Check list of branches.
+    git branch -a
+
+Make a new branch
+    git branch <branch-name>
+
+Go to the new branch
+    git checkout <branch-name>
+
+Pushing in new branch
+    git push --set-upstream origin <branch-name>
 ```
 ## Description
 The main objective of this project is to re-create a webpage for TAMK's TASO club as there are some problems happen with TASO current webpage. The new website can be a new one with new design and features, or can be a replica of the existing website.
