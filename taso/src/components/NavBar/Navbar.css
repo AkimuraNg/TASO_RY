@@ -1,0 +1,22 @@
+.navbar-brand{
+    cursor: pointer;
+}
+.navbar{
+    padding: 10px;
+}
+.nav-item{
+    text-transform: uppercase;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-style: normal;
+    align-items: center;
+    letter-spacing:.2px;
+
+}
+/* .navbar-nav{
+    margin-right: 60px;
+} */
+.nav-link{
+    cursor: pointer;
+}
