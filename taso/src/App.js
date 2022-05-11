@@ -9,19 +9,31 @@ function App() {
         <Navbar />
       </header>
 
-      <main className='wrapper'>
+      <main className="wrapper">
+        {/*Introduction view*/}
         <section className="banner">
-          <div className="container h-100 w-100">
+          <div className="container h-100">
             <div className="row h-100">
+              <div className="col-12">
                 <div className="welcome">
-                  <h1>Tervetuloa</h1>
+                  <h1 style={{ textTransform: 'uppercase' }} >
+                    Tervetuloa
+                  </h1>
                 </div>
+              </div>
             </div>
           </div>
         </section>
-        {/* <section className="about">
-          <About />
-        </section> */}
+
+        {/*About view*/}
+        <section className="about">
+          <div className="col-12">
+            <h1 style={{ marginTop: "28px", textTransform: "uppercase" }} className="text-color">
+              Meistä
+            </h1>
+            <About/>
+          </div>
+        </section>
       </main>
     </div>
   );

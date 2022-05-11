@@ -3,35 +3,34 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className="container_fluid text-dark">
-            <div className="row">
-                <div className='about'>
-                    <h1> About us</h1>
-                    <div className="col-lg-6">
-                        <div className="card-group">
-                            <div class="card" style={{ width: '18rem', marginLeft: '60px' }}>
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                            <div class="card" style={{ width: '18rem', marginLeft: '60px' }}>
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
+        <div className="container">
+            <div className="row row-cols-1 row-cols-md-4 g-2" style={{ marginTop: '80px' }}>
+                <div className="col">
+                    <div className="card">
+                        <div className="card-body">
+                            <p className="card-text">
+                                Tampereen sähköopiskelijat (TASO ry) on Tampereen ammattikorkeakoulun sähkö- ja automaatiotekniikan opiskelijoiden ainekerho.
+                            </p>
                         </div>
-
-                        <div class="card" style={{ width: '100%', marginLeft: '60px' , marginTop:'30px'}}>
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <div className="card-body">
+                            <p className="card-text">
+                                TASO ry on Tampereen ammattikorkeakoulun (TAMK) opiskelijakunnan (TAMKO) alayhdistys.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div className="card" style={{ marginTop: "20px", width: "645px", height: "100%" }}>
+                <div className="card-body">
+                    <p className="card-text">
+                        Valtaosa kerhon jäsenistä takaisin sähkö- ja automaatiotekniikan opiskelijoista, mutta TASOn jäseneksi saa liittyä kuka vain TAMKin opiskelijoista, josta johtuen monet eri koulutusohjelmista ovat liittyneet TASOn vahvuuteen.                    </p>
+                </div>
+            </div>
+
         </div>
     )
 }
