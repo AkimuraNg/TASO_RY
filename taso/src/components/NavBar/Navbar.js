@@ -13,13 +13,13 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto">
                             <li className="nav-item">
-                                <a className="nav-link text-white" >home</a>
-                            </li>
-                            <li className="nav-item">
                                 <a className="nav-link text-white" >meistä</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link text-white" >blogit</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link text-white" >tapahtumat</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link text-white" >in english</a>
