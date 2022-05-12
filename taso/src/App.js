@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/NavBar/Navbar'
 import About from './components/About/About'
 import Blog from './components/Blog/Blog'
+import Insta from './components/Insta/Insta';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
               <div className="col-12">
                 <div className="welcome">
                   <h1 style={{ textTransform: 'uppercase' }} >
-                    Tervetuloa
+                    Something to say welcome here!
                   </h1>
                 </div>
               </div>
@@ -38,8 +39,8 @@ function App() {
           </div>
         </section>
 
-        {/*Blogs view*/}
-        <section className="blogInsta">
+        {/*Blogs and Instagram view*/}
+        <section className="blogInsta mb-5" >
           <div className='col-12'>
             <div className="titleView">
               <h1 style={{ marginTop: "28px", textTransform: "uppercase" }} className="text-color">
@@ -51,7 +52,7 @@ function App() {
           </div>
           <div className="col-12">
             <div className="titleView">
-              <h1 style={{ marginTop: "120px", textTransform: "uppercase" }} className="text-color">
+              <h1 style={{ marginTop: "100px", textTransform: "uppercase" }} className="text-color">
                 Instagram
               </h1>
               <p className="content">Katso uusin Instagram-julkaisumme <span>täältä</span></p>
@@ -59,6 +60,13 @@ function App() {
           </div>
         </section>
       </main>
+      <footer className="footer">
+        <div className="container">
+          <div className="row">
+            <h1 className="text-white">This is the footer</h1>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
