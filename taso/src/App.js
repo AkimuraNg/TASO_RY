@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/NavBar/Navbar'
 import About from './components/About/About'
+import Blog from './components/Blog/Blog'
 
 function App() {
   return (
@@ -34,6 +35,27 @@ function App() {
               </h1>
             </div>
             <About />
+          </div>
+        </section>
+
+        {/*Blogs view*/}
+        <section className="blogInsta">
+          <div className='col-12'>
+            <div className="titleView">
+              <h1 style={{ marginTop: "28px", textTransform: "uppercase" }} className="text-color">
+                Blogit & Uutiset
+              </h1>
+              <p className="content">Katso uusimmat blogit ja uutiset <span>täältä</span></p>
+            </div>
+            <Blog />
+          </div>
+          <div className="col-12">
+            <div className="titleView">
+              <h1 style={{ marginTop: "120px", textTransform: "uppercase" }} className="text-color">
+                Instagram
+              </h1>
+              <p className="content">Katso uusin Instagram-julkaisumme <span>täältä</span></p>
+            </div>
           </div>
         </section>
       </main>
