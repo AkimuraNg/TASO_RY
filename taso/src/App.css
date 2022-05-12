@@ -1,7 +1,9 @@
 .App {
   font-family: 'Noto Sans', sans-serif;
 }
+
 .wrapper{
+  height: 100%;
 background-image: url("./images/bg2.png"), url('./images/bg1.png'), url('./images/bg3.png');
 background-repeat: no-repeat;
 background-position: 100% 52%, 100% 100%, 0% 100%;
@@ -17,7 +19,7 @@ background-position: 100% 52%, 100% 100%, 0% 100%;
 }
 .welcome{
   text-align: center;
-  top: 50%;
+  top: 40%;
   position: relative;
 }
 .about{
@@ -25,10 +27,12 @@ background-position: 100% 52%, 100% 100%, 0% 100%;
   height:900px;
   background-image: url("./images/taso.png");
   background-repeat: no-repeat;
-  background-position: 90% 50%;
+  background-position: 52% 5%;
   background-size: 40%
 }
-
+.titleView{
+  text-align: center;
+}
 .text-color{
   color: rgba(118, 0, 85, 0.65);
 }
@@ -41,6 +45,9 @@ background-position: 100% 52%, 100% 100%, 0% 100%;
 
 @media (max-width: 600px) {
   .banner{
+    background-image: none;
+  }
+  .about{
     background-image: none;
   }
   .welcome{

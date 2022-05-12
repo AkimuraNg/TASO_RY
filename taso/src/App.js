@@ -28,12 +28,16 @@ function App() {
         {/*About view*/}
         <section className="about">
           <div className="col-12">
-            <h1 style={{ marginTop: "28px", textTransform: "uppercase" }} className="text-color">
-              Meistä
-            </h1>
-            <About/>
+            <div className="titleView">
+              <h1 style={{ marginTop: "28px", textTransform: "uppercase" }} className="text-color">
+                Meistä
+              </h1>
+            </div>
+            <About />
           </div>
         </section>
+
+        
       </main>
     </div>
   );
