@@ -8,18 +8,19 @@ background-image: url("./images/bg2.png"), url('./images/bg1.png'), url('./image
 background-repeat: no-repeat;
 background-position: 100% 52%, 100% 100%, 0% 100%;
 }
-/*Image link: https://www.deviantart.com/franticdreamer/art/Retrowave-Synthwave-Road-Loop-CC0-888400181*/
+/*Image link (bg.gif): https://www.deviantart.com/franticdreamer/art/Retrowave-Synthwave-Road-Loop-CC0-888400181*/
+/*Image link (background.gif): https://www.deviantart.com/kirokaze/art/Wallpaper-Engine-910182823*/
 .banner{
   position: relative;
-  background-image:url('./images/bg.gif');
-  height: 900px;
+  background-image:url('./images/background.gif');
+  height: 800px;
   margin-top: 72px;
   background-size:100%;
   background-repeat: no-repeat;
 }
 .welcome{
   text-align: center;
-  top: 40%;
+  top: 35%;
   position: relative;
 }
 .about{
