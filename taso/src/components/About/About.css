@@ -7,14 +7,33 @@
     width: 280px;
     margin-left: 80px;
 }
+.item{
+    margin-top: 80px;
+}
+.title{
+    color: rgba(118, 0, 85, 0.65);
+    text-transform: uppercase;
+}
 .card2{
     padding: 20px;
     border: 2px solid rgba(118, 0, 85, 0.65);
     box-shadow: -6px 6px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     width: 900px;
-    margin-top: 120px;
+    margin-top: 160px;
     margin-left: 200px
+}
+.cardMem{
+    padding: 24px;
+    border: 2px solid rgba(118, 0, 85, 0.65);
+    box-shadow: -6px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    height: 100%;
+    width: 280px;
+    margin-left: 50px;
+}
+.card-textMem{
+    font-size: 16px;
 }
 .card-body {
     font-family: 'Noto Sans', sans-serif;
@@ -23,9 +42,9 @@
     font-size: 20px;
     align-items: center;
     margin: 0;
-    display: flex;
+    display: none;
 }
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .card{
         margin-left: 10px;
         width: 380px;
@@ -35,4 +54,11 @@
         height: 100%;
         margin-left: 10px;
     }
+}
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (min-width: 2560px) {
+
 }

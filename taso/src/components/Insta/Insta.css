@@ -1,6 +1,13 @@
-.card-body{
-    display: contents;
+.card-group{
+    /* padding: 20px; */
+    margin-left: 120px;
+    padding-left: 32px;
 }
-.card-wrapperI{
-    display: flex
+.cardIns{
+    margin: 10px;
+}
+@media only screen and (max-width: 600px){
+    .postView1{
+        visibility: hidden;
+    }
 }
