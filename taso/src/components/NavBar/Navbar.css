@@ -3,7 +3,10 @@
 }
 
 .navbar{
-    padding: 10px;
+    /* padding: 10px; */
+}
+.bg-dark{
+    background-color: black !important;
 }
 .nav-item{
     text-transform: uppercase;
@@ -19,5 +22,9 @@
     margin-right: 60px;
 } */
 .nav-link{
+    position: relative;
     cursor: pointer;
+}
+.nav-link:hover{
+    border-bottom: 1px solid white;
 }
