@@ -10,4 +10,8 @@
     .postView1{
         visibility: hidden;
     }
+    .card-group{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
 }
