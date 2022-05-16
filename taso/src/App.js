@@ -6,6 +6,7 @@ import About from './components/About/About'
 import Blog from './components/Blog/Blog'
 import Insta from './components/Insta/Insta';
 
+
 function App() {
   return (
     <div className="App">
@@ -64,7 +65,19 @@ function App() {
           </div>
         </section>
         {/*Events calendar view*/}
+
+        <section className="events">
+          <div className="col-12">
+            <div className="titleView">
+              <h1 style={{ marginTop: "28px", textTransform: "uppercase" }} className="text-color">
+                Tapahtumat
+              </h1>
+            </div>
+          </div>
+        </section>
       </main>
+
+      {/*Footer*/}
       <footer className="footer">
         <div className="container">
           <div className="row">
@@ -79,16 +92,33 @@ function App() {
             </div>
             <div className="col-md-4 text-white" style={{ textAlign: 'center' }}>
               <h1 >TIETOA TASOSTA</h1>
-              <div className="row1" style={{display: 'flex'}}>
-                <p style={{paddingLeft: '124px', marginRight: '50px'}}>Historiaa</p>
+              <div className="row1" style={{ display: 'flex' }}>
+                <p className="data">Historiaa</p>
                 <p>Tietosuja</p>
               </div>
               <p>Evāsteasetukset</p>
-              <button className="btn feedback text-white" style={{marginTop: "40px"}} type="button">Palaute</button>
+              <button className="btn feedback text-white" style={{ marginTop: "40px" }} type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Palaute</button>
             </div>
           </div>
         </div>
       </footer>
+      <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div className="modal-body">
+              ...
+            </div>
+            <div className="modal-footer">
+              <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" className="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

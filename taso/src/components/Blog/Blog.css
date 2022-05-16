@@ -1,11 +1,31 @@
 .card-body{
     display: contents;
 }
+.card {
+    padding: 20px;
+    border: 2px solid rgba(118, 0, 85, 0.65);
+    box-shadow: -6px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    height: 100%;
+    width: 280px;
+    margin-right: 40px;
+}
 .card-wrapper{
-    display: flex
+    display: flex;
+    margin-left: 100px
+}
+.carousel-control-prev{
+    height: 100%;
+    width: 50px;
+}
+.carousel-control-next{
+    height: 100%;
+    width: 50px;
 }
 @media only screen and (max-width: 600px){
-
+    .blogPost1{
+        visibility: hidden;
+    }
 }
 
 @media only screen and (max-width: 768px){

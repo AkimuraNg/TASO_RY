@@ -6,7 +6,6 @@ const Insta = () => {
     return (
         <div className="container">
             <div className="postView1">
-
                 <div className="row">
                     <div className="col-12">
                         <div className='card-group'>
