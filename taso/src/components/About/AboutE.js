@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 import Image from '../../images/card-image-top.png'
 
-const About = () => {
+const AboutE = () => {
     return (
         <div className="container">
             <div className="row">
@@ -21,7 +21,7 @@ const About = () => {
             <div className="row">
                 <div className="col-md-12 membersView">
                     <div className="title" style={{ textAlign: 'center' }}>
-                        <h1>Jäsenet</h1>
+                        <h1>Members</h1>
                     </div>
                     <div className="card-group-members">
                         <div className="cardMem">
@@ -33,7 +33,7 @@ const About = () => {
                             </div>
                             <div className='face face2'>
                                 <div className="memberContent">
-                                    <p>Puheenjohtaja<br />
+                                    <p>Chairman<br />
                                         Email: xxxx@tuni.fi</p>
                                 </div>
                             </div>
@@ -47,7 +47,7 @@ const About = () => {
                             </div>
                             <div className='face face2'>
                                 <div className="memberContent">
-                                    <p>Varapuheenjohtaja<br />
+                                    <p>Vice Chairman<br />
                                         Email: xxxx@tuni.fi</p>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ const About = () => {
                             </div>
                             <div className='face face2'>
                                 <div className="memberContent">
-                                    <p>Rahastonhoitaja<br />
+                                    <p>Treasurer<br />
                                         Email: xxxx@tuni.fi</p>
                                 </div>
                             </div>
@@ -77,7 +77,7 @@ const About = () => {
                             </div>
                             <div className='face face2'>
                                 <div className="memberContent">
-                                    <p>Sihteeri<br />
+                                    <p>Secretary<br />
                                         Email: xxxx@tuni.fi</p>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@ const About = () => {
                             </div>
                             <div className='face face2'>
                                 <div className="memberContent">
-                                    <p>Koulutuspoliittinen Vastaava<br />
+                                    <p>Educational Affairs<br />
                                         Email: xxxx@tuni.fi</p>
                                 </div>
                             </div>
@@ -105,7 +105,7 @@ const About = () => {
                             </div>
                             <div className='face face2'>
                                 <div className="memberContent">
-                                    <p>Tapahtumavastaava<br />
+                                    <p>Events Coordinator<br />
                                         Email: xxxx@tuni.fi</p>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@ const About = () => {
                             </div>
                             <div className='face face2'>
                                 <div className="memberContent">
-                                    <p>Yhteistyövastaava<br />
+                                    <p>Cooperations Coordinator<br />
                                         Email: xxxx@tuni.fi</p>
                                 </div>
                             </div>
@@ -135,7 +135,7 @@ const About = () => {
                             </div>
                             <div className='face face2'>
                                 <div className="memberContent">
-                                    <p>Tila-ja Jäsenvastaava<br />
+                                    <p>Facilities and Members Coordinator<br />
                                         Email: xxxx@tuni.fi</p>
                                 </div>
                             </div>
@@ -149,7 +149,7 @@ const About = () => {
                             </div>
                             <div className='face face2'>
                                 <div className="memberContent">
-                                    <p>Somevastaava<br />
+                                    <p>Social Media Coordinator<br />
                                         Email: xxxx@tuni.fi</p>
                                 </div>
                             </div>
@@ -169,7 +169,7 @@ const About = () => {
                                     </div>
                                     <div className='face face2'>
                                         <div className="memberContent">
-                                            <p>Puheenjohtaja<br />
+                                            <p>Chairman<br />
                                                 Email: xxxx@tuni.fi</p>
                                         </div>
                                     </div>
@@ -185,7 +185,7 @@ const About = () => {
                                     </div>
                                     <div className='face face2'>
                                         <div className="memberContent">
-                                            <p>Varapuheenjohtaja<br />
+                                            <p>Vice Chairman<br />
                                                 Email: xxxx@tuni.fi</p>
                                         </div>
                                     </div>
@@ -201,7 +201,7 @@ const About = () => {
                                     </div>
                                     <div className='face face2'>
                                         <div className="memberContent">
-                                            <p>Rahastonhoitaja<br />
+                                            <p>Treasurer<br />
                                                 Email: xxxx@tuni.fi</p>
                                         </div>
                                     </div>
@@ -217,7 +217,7 @@ const About = () => {
                                     </div>
                                     <div className='face face2'>
                                         <div className="memberContent">
-                                            <p>Sihteeri<br />
+                                            <p>Secretary<br />
                                                 Email: xxxx@tuni.fi</p>
                                         </div>
                                     </div>
@@ -233,7 +233,7 @@ const About = () => {
                                     </div>
                                     <div className='face face2'>
                                         <div className="memberContent">
-                                            <p>Koulutuspoliittinen Vastaava<br />
+                                            <p>Educational Affairs<br />
                                                 Email: xxxx@tuni.fi</p>
                                         </div>
                                     </div>
@@ -249,7 +249,7 @@ const About = () => {
                                     </div>
                                     <div className='face face2'>
                                         <div className="memberContent">
-                                            <p>Tapahtumavastaava<br />
+                                            <p>Events Coordinator<br />
                                                 Email: xxxx@tuni.fi</p>
                                         </div>
                                     </div>
@@ -265,7 +265,7 @@ const About = () => {
                                     </div>
                                     <div className='face face2'>
                                         <div className="memberContent">
-                                            <p>Yhteistyövastaava<br />
+                                            <p>Cooperations Coordinator<br />
                                                 Email: xxxx@tuni.fi</p>
                                         </div>
                                     </div>
@@ -281,7 +281,7 @@ const About = () => {
                                     </div>
                                     <div className='face face2'>
                                         <div className="memberContent">
-                                            <p>Tila-ja Jäsenvastaava<br />
+                                            <p>Facilities and Members Coordinator<br />
                                                 Email: xxxx@tuni.fi</p>
                                         </div>
                                     </div>
@@ -297,7 +297,7 @@ const About = () => {
                                     </div>
                                     <div className='face face2'>
                                         <div className="memberContent">
-                                            <p>Somevastaava<br />
+                                            <p>Social Media Coordinator<br />
                                                 Email: xxxx@tuni.fi</p>
                                         </div>
                                     </div>
@@ -312,4 +312,4 @@ const About = () => {
     )
 }
 
-export default About
+export default AboutE

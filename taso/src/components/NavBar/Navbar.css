@@ -5,6 +5,9 @@
 .navbar{
     /* padding: 10px; */
 }
+.navbar-nav{
+    align-items: center;
+}
 .bg-dark{
     background-color: black !important;
 }

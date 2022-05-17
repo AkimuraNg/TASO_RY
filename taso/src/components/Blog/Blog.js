@@ -8,7 +8,6 @@ const Blog = () => {
             <div className="blogPost1">
                 <div className="row">
                     <div id="carouselBlog" class="carousel carousel-dark slide" data-bs-ride="carousel">
-
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="3000">
                                 <div className="card-wrapper">
@@ -117,6 +116,111 @@ const Blog = () => {
                             <span className="carousel-control-next-icon" aria-hidden="true"></span>
                             <span className="visually-hidden">Next</span>
                         </button>
+                    </div>
+                </div>
+            </div>
+            <div className="blogPost2">
+                <div className="row">
+                    <div id="carouselBlog" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <div className="card mb-3">
+                                    <div className="row g-0">
+                                        <div className="col-md-4">
+                                            <img src={Image} className="img-fluid rounded-start" alt="..." />
+                                        </div>
+                                        <div className="col-md-8">
+                                            <div className="card-body">
+                                                <h5 className="card-title" style={{marginTop: 10}}>Card title 1</h5>
+                                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <div className="card mb-3">
+                                    <div className="row g-0">
+                                        <div className="col-md-4">
+                                            <img src={Image} className="img-fluid rounded-start" alt="..." />
+                                        </div>
+                                        <div className="col-md-8">
+                                            <div className="card-body">
+                                                <h5 className="card-title" style={{marginTop: 10}}>Card title 2</h5>
+                                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <div className="card mb-3">
+                                    <div className="row g-0">
+                                        <div className="col-md-4">
+                                            <img src={Image} className="img-fluid rounded-start" alt="..." />
+                                        </div>
+                                        <div className="col-md-8">
+                                            <div className="card-body">
+                                                <h5 className="card-title" style={{marginTop: 10}}>Card title 3</h5>
+                                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <div className="card mb-3">
+                                    <div className="row g-0">
+                                        <div className="col-md-4">
+                                            <img src={Image} className="img-fluid rounded-start" alt="..." />
+                                        </div>
+                                        <div className="col-md-8">
+                                            <div className="card-body">
+                                                <h5 className="card-title" style={{marginTop: 10}}>Card title 4</h5>
+                                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <div className="card mb-3">
+                                    <div className="row g-0">
+                                        <div className="col-md-4">
+                                            <img src={Image} className="img-fluid rounded-start" alt="..." />
+                                        </div>
+                                        <div className="col-md-8">
+                                            <div className="card-body">
+                                                <h5 className="card-title" style={{marginTop: 10}}>Card title 5</h5>
+                                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <div className="card mb-3">
+                                    <div className="row g-0">
+                                        <div className="col-md-4">
+                                            <img src={Image} className="img-fluid rounded-start" alt="..." />
+                                        </div>
+                                        <div className="col-md-8">
+                                            <div className="card-body">
+                                                <h5 className="card-title" style={{marginTop: 10}}>Card title 6</h5>
+                                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
