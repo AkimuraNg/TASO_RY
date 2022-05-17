@@ -4,9 +4,9 @@ import {Link} from 'react-scroll'
 import {Link as Navigate} from 'react-router-dom';
 import Logo from "../../images/logo3.png"
 
-const Navbar = () => {
-    return (
-        <div>
+const NavbarE = () => {
+  return (
+    <div>
             <nav id = "navigation" className='navbar fixed-top navbar-expand-lg navbar-dark bg-dark'>
                 <div className="container">
                     <Link className="navbar-brand" to="banner">
@@ -18,23 +18,23 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto">
                             <li className="nav-item">
-                                <Link className="nav-link text-white" to="about">meistä</Link>
+                                <Link className="nav-link text-white" to="about">About Us</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-white " to="blogInsta">blogit</Link>
+                                <Link className="nav-link text-white " to="blogInsta">Blogs</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-white" to="events">tapahtumat</Link>
+                                <Link className="nav-link text-white" to="events">Events</Link>
                             </li>
                             <li className="nav-item">
-                                <Navigate to="/eng" className="nav-link text-white">english</Navigate>
+                                <Navigate to="/" className="nav-link text-white">Suomalainen</Navigate>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </div>
-    )
+  )
 }
 
-export default Navbar
+export default NavbarE

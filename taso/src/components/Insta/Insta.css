@@ -8,7 +8,7 @@
 }
 @media only screen and (max-width: 600px){
     .postView1{
-        visibility: hidden;
+        display: none;
     }
     .card-group{
         margin-left: 0px;

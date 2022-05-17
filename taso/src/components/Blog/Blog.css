@@ -22,9 +22,20 @@
     height: 100%;
     width: 50px;
 }
+.blogPost2{
+    display: none;
+}
 @media only screen and (max-width: 600px){
     .blogPost1{
-        visibility: hidden;
+        display: none;
+    }
+    .blogPost2{
+        display: block;
+    }
+    .card{
+        width: unset;
+        height: unset;
+        margin-right: 0px;
     }
 }
 
