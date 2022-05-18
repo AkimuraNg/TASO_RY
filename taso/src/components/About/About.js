@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import Image from '../../images/card-image-top.png'
-import members from '../members.json'
+import members from './members.json'
 
 const About = () => {
     return (
