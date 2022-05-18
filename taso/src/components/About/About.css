@@ -11,7 +11,6 @@
     display: none;
 }
 .card-group-members{
-    display: flex;
     margin-left: 140px;
     margin-top: 50px;
 }
@@ -32,6 +31,7 @@
     margin-left: 200px
 }
 .cardMem{
+    display: inline-block;
     padding: 24px;
     border: 2px solid rgba(118, 0, 85, 0.65);
     box-shadow: -6px 6px 4px rgba(0, 0, 0, 0.25);
@@ -39,6 +39,7 @@
     height: 350px;
     width: 280px;
     margin-left: 50px;
+    margin-bottom: 20px;
 }
 .cardMem .face{
     transition: 0.5s;
@@ -69,13 +70,21 @@
 }
 
 .cardMem .face.face2{
+    /* background-color: white; */
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    box-sizing: border-box;
-    transform: translateY(-100px);
+    /* box-sizing: border-box; */
+    transform: translateY(-150px);
+}
+.cardMem .face.face2 .memberContent{
+    opacity: 0;
+    transition: 0.5s;
+}
+.cardMem:hover .face.face1 .memberContent{
+    opacity: 1;
 }
 .cardMem:hover .face.face2{
     transform: translateY(0)
@@ -91,6 +100,9 @@
     font-size: 20px;
     align-items: center;
     margin: 0;
+    display: none;
+}
+.membersView2{
     display: none;
 }
 @media only screen and (max-width: 600px) {
@@ -109,24 +121,18 @@
     }
     .cardMem{
         margin-bottom: 20px;
-        height: unset;
-        width: unset;
-        margin-left: unset;
+        height: 300px;
+        width: 200px;
+        margin-left: 10px;
     }
     .card-group-members{
         display: none;
-    }
-    .card-group-members-2{
-        display: flex;
-    }
-    .membersView2{
-        display: block;
-        margin-top: 20px;
-        align-items: center;
+        margin-left: 0px;
     }
     .membersView{
         margin-top: 50px;
     }
+    
 }
 @media only screen and (max-width: 768px) {
 
