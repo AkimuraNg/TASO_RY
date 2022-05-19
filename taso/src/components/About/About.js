@@ -27,7 +27,7 @@ const About = () => {
                     <div className="card-group-members">
                         {members.map(post => {
                             return (
-                                <div className="cardMem" >
+                                <div className="cardMem" key={post.id}>
                                     <div className='face face1'>
                                         <div className="memberContent">
                                             <img src={Image} className="img-fluid rounded-start" alt="..." />
@@ -45,32 +45,6 @@ const About = () => {
                         })}
                     </div>
                 </div>
-                {/* <div className="col-md-12 membersView2">
-                    {members.map(posts => {
-                        return (
-                            <div id="carouselMembers" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div className="cardMem" >
-                                            <div className='face face1'>
-                                                <div className="memberContent">
-                                                    <img src={Image} className="img-fluid rounded-start" alt="..." />
-                                                    <h3>{posts.name}</h3>
-                                                </div>
-                                                <div className='face face2'>
-                                                    <div className="memberContent">
-                                                        <p>{posts.title}<br />
-                                                            {posts.email}</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        )
-                    })}
-                </div> */}
             </div>
         </div>
     )

@@ -10,99 +10,52 @@ const Blog = () => {
                     <div id="carouselBlog" class="carousel carousel-dark slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="3000">
-                                <div className="card-wrapper">
-                                    <div className="card mb-3" style={{ width: "540px", marginTop: '20px' }}>
-                                        <div className="row g-0">
-                                            <div className="col-md-4">
-                                                <img src={Image} className="img-fluid rounded-start" alt="..." />
-                                            </div>
-                                            <div className="col-md-8">
-                                                <div className="card-body">
-                                                    <h5 className="card-title">Card title 1</h5>
-                                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                                </div>
-                                            </div>
+                                <div className="card-wrapper" >
+                                    <div className="card">
+                                        <img src={Image} className="card-img-top" alt="..." />
+                                        <div className="card-body" style={{ textAlign: 'center' }}>
+                                            <h5 className="card-title">Card title 1</h5>
+                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
-                                    <div className="card mb-3" style={{ width: "540px", marginTop: '20px' }}>
-                                        <div className="row g-0">
-                                            <div className="col-md-4">
-                                                <img src={Image} className="img-fluid rounded-start" alt="..." />
-                                            </div>
-                                            <div className="col-md-8">
-                                                <div className="card-body">
-                                                    <h5 className="card-title">Card title 2</h5>
-                                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                                </div>
-                                            </div>
+                                    <div className="card">
+                                        <img src={Image} className="card-img-top" alt="..." />
+                                        <div className="card-body" style={{ textAlign: 'center' }}>
+                                            <h5 className="card-title">Card title 2</h5>
+                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                    <div className="card">
+                                        <img src={Image} className="card-img-top" alt="..." />
+                                        <div className="card-body" style={{ textAlign: 'center' }}>
+                                            <h5 className="card-title">Card title 3</h5>
+                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="carousel-item" data-bs-interval="3000">
-                                <div className="card-wrapper">
-                                    <div className="card mb-3" style={{ width: "540px", marginTop: '20px' }}>
-                                        <div className="row g-0">
-                                            <div className="col-md-4">
-                                                <img src={Image} className="img-fluid rounded-start" alt="..." />
-                                            </div>
-                                            <div className="col-md-8">
-                                                <div className="card-body">
-                                                    <h5 className="card-title">Card title 3</h5>
-                                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                                </div>
-                                            </div>
+                                <div className="card-wrapper" >
+                                    <div className="card">
+                                        <img src={Image} className="card-img-top" alt="..." />
+                                        <div className="card-body" style={{ textAlign: 'center' }}>
+                                            <h5 className="card-title">Card title 4</h5>
+                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
-                                    <div className="card mb-3" style={{ width: "540px", marginTop: '20px' }}>
-                                        <div className="row g-0">
-                                            <div className="col-md-4">
-                                                <img src={Image} className="img-fluid rounded-start" alt="..." />
-                                            </div>
-                                            <div className="col-md-8">
-                                                <div className="card-body">
-                                                    <h5 className="card-title">Card title 4</h5>
-                                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                                </div>
-                                            </div>
+                                    <div className="card">
+                                        <img src={Image} className="card-img-top" alt="..." />
+                                        <div className="card-body" style={{ textAlign: 'center' }}>
+                                            <h5 className="card-title">Card title 5</h5>
+                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item" data-bs-interval="3000">
-                                <div className="card-wrapper">
-                                    <div className="card mb-3" style={{ width: "540px", marginTop: '20px' }}>
-                                        <div className="row g-0">
-                                            <div className="col-md-4">
-                                                <img src={Image} className="img-fluid rounded-start" alt="..." />
-                                            </div>
-                                            <div className="col-md-8">
-                                                <div className="card-body">
-                                                    <h5 className="card-title">Card title 5</h5>
-                                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="card mb-3" style={{ width: "540px", marginTop: '20px' }}>
-                                        <div className="row g-0">
-                                            <div className="col-md-4">
-                                                <img src={Image} className="img-fluid rounded-start" alt="..." />
-                                            </div>
-                                            <div className="col-md-8">
-                                                <div className="card-body">
-                                                    <h5 className="card-title">Card title 6</h5>
-                                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                                </div>
-                                            </div>
+                                    <div className="card">
+                                        <img src={Image} className="card-img-top" alt="..." />
+                                        <div className="card-body" style={{ textAlign: 'center' }}>
+                                            <h5 className="card-title">Card title 6</h5>
+                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -124,103 +77,74 @@ const Blog = () => {
                     <div id="carouselBlog" class="carousel carousel-dark slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="3000">
-                                <div className="card mb-3">
-                                    <div className="row g-0">
-                                        <div className="col-md-4">
-                                            <img src={Image} className="img-fluid rounded-start" alt="..." />
-                                        </div>
-                                        <div className="col-md-8">
-                                            <div className="card-body">
-                                                <h5 className="card-title" style={{marginTop: 10}}>Card title 1</h5>
-                                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                            </div>
-                                        </div>
+                                <div className="card">
+                                    <img src={Image} className="card-img-top" alt="..." />
+                                    <div className="card-body" style={{ textAlign: 'center' }}>
+                                        <h5 className="card-title">Card title 1</h5>
+                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item" data-bs-interval="3000">
-                                <div className="card mb-3">
-                                    <div className="row g-0">
-                                        <div className="col-md-4">
-                                            <img src={Image} className="img-fluid rounded-start" alt="..." />
-                                        </div>
-                                        <div className="col-md-8">
-                                            <div className="card-body">
-                                                <h5 className="card-title" style={{marginTop: 10}}>Card title 2</h5>
-                                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                            </div>
-                                        </div>
+                                <div className="card">
+                                    <img src={Image} className="card-img-top" alt="..." />
+                                    <div className="card-body" style={{ textAlign: 'center' }}>
+                                        <h5 className="card-title">Card title 2</h5>
+                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item" data-bs-interval="3000">
-                                <div className="card mb-3">
-                                    <div className="row g-0">
-                                        <div className="col-md-4">
-                                            <img src={Image} className="img-fluid rounded-start" alt="..." />
-                                        </div>
-                                        <div className="col-md-8">
-                                            <div className="card-body">
-                                                <h5 className="card-title" style={{marginTop: 10}}>Card title 3</h5>
-                                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                            </div>
-                                        </div>
+                                <div className="card">
+                                    <img src={Image} className="card-img-top" alt="..." />
+                                    <div className="card-body" style={{ textAlign: 'center' }}>
+                                        <h5 className="card-title">Card title 3</h5>
+                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item" data-bs-interval="3000">
-                                <div className="card mb-3">
-                                    <div className="row g-0">
-                                        <div className="col-md-4">
-                                            <img src={Image} className="img-fluid rounded-start" alt="..." />
-                                        </div>
-                                        <div className="col-md-8">
-                                            <div className="card-body">
-                                                <h5 className="card-title" style={{marginTop: 10}}>Card title 4</h5>
-                                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                            </div>
-                                        </div>
+                                <div className="card">
+                                    <img src={Image} className="card-img-top" alt="..." />
+                                    <div className="card-body" style={{ textAlign: 'center' }}>
+                                        <h5 className="card-title">Card title 4</h5>
+                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item" data-bs-interval="3000">
-                                <div className="card mb-3">
-                                    <div className="row g-0">
-                                        <div className="col-md-4">
-                                            <img src={Image} className="img-fluid rounded-start" alt="..." />
-                                        </div>
-                                        <div className="col-md-8">
-                                            <div className="card-body">
-                                                <h5 className="card-title" style={{marginTop: 10}}>Card title 5</h5>
-                                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                            </div>
-                                        </div>
+                                <div className="card">
+                                    <img src={Image} className="card-img-top" alt="..." />
+                                    <div className="card-body" style={{ textAlign: 'center' }}>
+                                        <h5 className="card-title">Card title 5</h5>
+                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item" data-bs-interval="3000">
-                                <div className="card mb-3">
-                                    <div className="row g-0">
-                                        <div className="col-md-4">
-                                            <img src={Image} className="img-fluid rounded-start" alt="..." />
-                                        </div>
-                                        <div className="col-md-8">
-                                            <div className="card-body">
-                                                <h5 className="card-title" style={{marginTop: 10}}>Card title 6</h5>
-                                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                            </div>
-                                        </div>
+                                <div className="card">
+                                    <img src={Image} className="card-img-top" alt="..." />
+                                    <div className="card-body" style={{ textAlign: 'center' }}>
+                                        <h5 className="card-title">Card title 6</h5>
+                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
+                        <div class="carousel-indicators" style={{marginTop: 20}}>
+                            <button type="button" data-bs-target="#carouselBlog" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselBlog" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselBlog" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselBlog" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselBlog" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselBlog" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        </div>
                     </div>
                 </div>
             </div>
