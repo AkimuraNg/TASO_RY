@@ -27,35 +27,30 @@ const Insta = () => {
                             <div className="cardIns">
                                 <img src={Dummy} alt="dummy pic" />
                             </div>
+                            <div className="cardIns">
+                                <img src={Dummy} alt="dummy pic" />
+                            </div>
+                            <div className="cardIns">
+                                <img src={Dummy} alt="dummy pic" />
+                            </div>
+                            <div className="cardIns">
+                                <img src={Dummy} alt="dummy pic" />
+                            </div>
+                            <div className="cardIns">
+                                <img src={Dummy} alt="dummy pic" />
+                            </div>
+                            <div className="cardIns">
+                                <img src={Dummy} alt="dummy pic" />
+                            </div>
+                            <div className="cardIns">
+                                <img src={Dummy} alt="dummy pic" />
+                            </div>
+                            
                         </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-12">
-                        <div className='card-group'>
-                            <div className="cardIns">
-                                <img src={Dummy} alt="dummy pic" />
-                            </div>
-                            <div className="cardIns">
-                                <img src={Dummy} alt="dummy pic" />
-                            </div>
-                            <div className="cardIns">
-                                <img src={Dummy} alt="dummy pic" />
-                            </div>
-                            <div className="cardIns">
-                                <img src={Dummy} alt="dummy pic" />
-                            </div>
-                            <div className="cardIns">
-                                <img src={Dummy} alt="dummy pic" />
-                            </div>
-                            <div className="cardIns">
-                                <img src={Dummy} alt="dummy pic" />
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 
