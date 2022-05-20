@@ -57,7 +57,6 @@ const Footer = () => {
                         </div>
                         <div className="col-md-3 text-white" style={{ textAlign: 'center', display: 'flex', justifyContent: 'center' }}>
                             <div className="follow">
-                                <h4 style={{ marginTop: '20px' }}>Seuraa  Meistä</h4>
                                 <img src={Facebook} alt="Facebook" className="socialLogo" />
                                 <img src={Instagram} alt="Instagram" />
                             </div>

@@ -165,6 +165,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .aboutContent{
+        margin-top: 0px;
+        font-size: 14px;
+        margin-left: 20px;
+    }
     .membersView{
         margin-top: 20px;
     }
@@ -184,4 +189,12 @@
     }
 }
 
-@media only screen and (min-width: 2560px) {}
+@media only screen and (min-width: 2560px) {
+    .about{ 
+        background-position: 70% -2.5%;
+        background-size: 22%;
+    }
+    .aboutContent{
+        font-size: 24px;
+    }
+}

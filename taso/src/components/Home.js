@@ -44,7 +44,7 @@ const Home = () => {
                 <section className="blogInsta mb-5" >
                     <div className='col-12'>
                         <div className="titleView">
-                            <h1 style={{ marginTop: "28px", textTransform: "uppercase" }} className="text-color">
+                            <h1 style={{ marginTop: "50px", textTransform: "uppercase" }} className="text-color">
                                 Blogit & Uutiset
                             </h1>
                             <p className="content">Katso uusimmat blogit ja uutiset <span>täältä</span></p>
@@ -72,10 +72,10 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-            </main>
-
             {/*Footer*/}
             <Footer/>
+            </main>
+
         </div>
     )
 }
