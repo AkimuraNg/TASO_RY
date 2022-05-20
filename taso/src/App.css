@@ -4,9 +4,13 @@
 
 .wrapper {
   height: 100%;
-  /* background-image: url("./images/bg2.png"), url('./images/bg1.png'), url('./images/bg3.png');
+  background-image: url("./images/bg2.png"),
+    url('./images/bg1.png'),
+    url('./images/bg3.png'),
+    url('./images/bg4.png'),
+    url('./images/bg5.png'), url('./images/Polygon.png'), url('./images/Polygon1.png'), url('./images/Polygon2.png');
   background-repeat: no-repeat;
-  background-position: 100% 21%, 100% 50%, 0% 40%; */
+  background-position: 100% 18%, 100% 50%, 0% 36%, 100% 73%, 0% 95%, 20% 19%, 97% 93%, 5% 60% ;
 }
 
 /*Image link (bg.gif): https://www.deviantart.com/franticdreamer/art/Retrowave-Synthwave-Road-Loop-CC0-888400181*/
@@ -25,7 +29,7 @@
   text-align: center;
   top: 35%;
   position: relative;
-  
+
 }
 
 .about {
@@ -37,7 +41,7 @@
   background-size: 30%
 }
 
-.blogInsta{
+.blogInsta {
   margin-top: 70px;
   position: relative;
   height: 100%
@@ -66,19 +70,23 @@ span {
   color: rgba(118, 0, 85, 0.65);
 }
 
-.footer{
+.footer {
   padding: 60px;
   background-color: black;
 }
-.footerRes{
+
+.footerRes {
   display: none;
 }
-.socialLogo{
+
+.socialLogo {
   margin-right: 20px;
 }
-.data{
+
+.data {
   margin-right: 50px;
 }
+
 * {
   -ms-overflow-style: none;
 }
@@ -88,6 +96,9 @@ span {
 }
 
 @media only screen and (max-width: 600px) {
+  .wrapper{
+    background-image: none;
+  }
   .banner {
     background-image: none;
   }
@@ -106,21 +117,26 @@ span {
   .welcome>h1 {
     color: rgba(118, 0, 85, 0.65);
   }
-  .footer{
+
+  .footer {
     display: none;
   }
-  .footerRes{
+
+  .footerRes {
     display: flex;
     padding: 20px;
     background-color: black;
   }
-  .btn-feedback{
+
+  .btn-feedback {
     margin-left: 20px;
   }
-  .data{
+
+  .data {
     padding-left: unset;
   }
-  .blogInsta{
+
+  .blogInsta {
     margin-top: 30px;
     position: relative;
     height: 100%
@@ -128,42 +144,53 @@ span {
 }
 
 
-@media only screen and (max-width: 768px){
-  .about{
+@media only screen and (max-width: 768px) {
+  .about {
     margin-top: -70px;
   }
-  .banner{
+
+  .banner {
     height: 529px;
     margin-top: unset
   }
+
   .welcome>h1 {
     color: rgba(118, 0, 85, 0.65);
   }
-  .data{
+
+  .data {
     margin-right: 40px;
   }
-  .btn-feedback{
+
+  .btn-feedback {
     margin-top: 0;
     /* margin-left: 36px; */
   }
-  .contact{
+
+  .contact {
     display: block;
   }
-  .contact > p{
+
+  .contact>p {
     margin-left: 0;
     margin-top: 8px
   }
 }
 
 
-@media only screen and (min-width: 2560px){
-  .banner{
+@media only screen and (min-width: 2560px) {
+  .wrapper{
+    background-position: 100% 18%, 100% 50%, 0% 36%, 100% 83%, 0% 93%, 30% 29%, 80% 93%, 5% 64% 
+  }
+  .banner {
     height: 1350px;
   }
+
   .welcome>h1 {
     color: rgba(118, 0, 85, 0.65);
   }
-  .footer{
+
+  .footer {
     background-position: 32% 80%;
   }
 }

@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div>
             <header>
-                <NavbarE/>
+                <NavbarE />
             </header>
             <main className="wrapper">
                 {/*Introduction view*/}
@@ -44,7 +44,7 @@ const Home = () => {
                 <section className="blogInsta mb-5" >
                     <div className='col-12'>
                         <div className="titleView">
-                            <h1 style={{ marginTop: "28px", textTransform: "uppercase" }} className="text-color">
+                            <h1 style={{ marginTop: "50px", textTransform: "uppercase" }} className="text-color">
                                 Blogs & News
                             </h1>
                             <p className="content">Check our latest blogs and news <span>here</span></p>
@@ -72,10 +72,9 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+                {/*Footer*/}
+                <FooterEng />
             </main>
-
-            {/*Footer*/}
-            <FooterEng/>
         </div>
     )
 }

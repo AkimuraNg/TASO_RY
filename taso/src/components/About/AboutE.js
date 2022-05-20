@@ -9,11 +9,11 @@ const AboutE = () => {
             <div className="row">
                 <div className="col-md-7">
                     <div className="aboutContent">
-                        <p>Tampereen sähköopiskelijat (TASO ry) on Tampereen ammattikorkeakoulun sähkö- ja automaatiotekniikan opiskelijoiden ainekerho.
-                            <br />TASO ry on Tampereen ammattikorkeakoulun (TAMK) opiskelijakunnan (TAMKO) alayhdistys.
+                        <p>Tampereen Sähköopiskelijat (TASO ry) is a subject club for students of electrical and automation engineering at Tampere University of Applied Sciences.
+                             Sub-association of the Tampere University of Applied Sciences (TAMK) student body (TAMKO).
                         </p>
                         <p>
-                            Valtaosa kerhon jäsenistä takaisin sähkö- ja automaatiotekniikan opiskelijoista, mutta TASOn jäseneksi saa liittyä kuka vain TAMKin opiskelijoista, josta johtuen monet eri koulutusohjelmista ovat liittyneet TASOn vahvuuteen.
+                            The majority of the club's members are back from electrical and automation engineering students, but only TAMK students can join TASO, which is why many of the different degree programs have joined TASO's strength.
                         </p>
                     </div>
                 </div>
