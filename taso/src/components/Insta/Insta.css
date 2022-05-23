@@ -1,12 +1,40 @@
 .card-group{
     /* padding: 20px; */
     margin-left: 120px;
-    padding-left: 32px;
+    padding-left: 0px;
+}
+.postView2{
+    display: none;
+}
+.slider{
+    display: none;
 }
 .cardIns{
     margin: 10px;
 }
+.imgIns{
+    position: relative;
+}
+.postImg{
+    transition: transform 1s;
+}
+.postImg:hover{
+    transform: scale(1.1);
+}
+
 @media only screen and (max-width: 600px){
+    .postView1{
+        display: none;
+    }
+    .postView2{
+        display: block;
+    }
+    .card-group-2{
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center
+    }
     .card-group{
         margin-left: 0px;
         padding-left: 0px;
@@ -14,7 +42,7 @@
 }
 @media only screen and (max-width: 768px){
     .card-group{
-        margin-left: 0px;
+        margin-left: 84px;
         padding-left: 0px;
     }
 }

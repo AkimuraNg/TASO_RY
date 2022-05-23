@@ -1,56 +1,46 @@
 import React from 'react'
 import './Insta.css'
-import Dummy from "../../images/Insta1.png"
+import data from './instagram.json'
 
-const Insta = () => {
+const Insta = ({ slides }) => {
+
     return (
         <div className="container">
             <div className="postView1">
                 <div className="row">
                     <div className="col-12">
-                        {/* <div className="elfsight-app-b6540c7e-206a-44a5-b810-2a2ca9068b3d"></div> */}
                         <div className='card-group'>
-                            <div className="cardIns">
-                                <img src={Dummy} alt="dummy pic" />
-                            </div>
-                            <div className="cardIns">
-                                <img src={Dummy} alt="dummy pic" />
-                            </div>
-                            <div className="cardIns">
-                                <img src={Dummy} alt="dummy pic" />
-                            </div>
-                            <div className="cardIns">
-                                <img src={Dummy} alt="dummy pic" />
-                            </div>
-                            <div className="cardIns">
-                                <img src={Dummy} alt="dummy pic" />
-                            </div>
-                            <div className="cardIns">
-                                <img src={Dummy} alt="dummy pic" />
-                            </div>
-                            <div className="cardIns">
-                                <img src={Dummy} alt="dummy pic" />
-                            </div>
-                            <div className="cardIns">
-                                <img src={Dummy} alt="dummy pic" />
-                            </div>
-                            <div className="cardIns">
-                                <img src={Dummy} alt="dummy pic" />
-                            </div>
-                            <div className="cardIns">
-                                <img src={Dummy} alt="dummy pic" />
-                            </div>
-                            <div className="cardIns">
-                                <img src={Dummy} alt="dummy pic" />
-                            </div>
-                            <div className="cardIns">
-                                <img src={Dummy} alt="dummy pic" />
-                            </div>
+                            {data.map(insta => {
+                                return (
+                                    <div className="cardIns" key={insta.id}>
+                                        <div className="imgIns">
+                                            <img src={insta.image} alt='Instagram post' className="postImg" style={{ width: 250, height: 250 }} />
+                                        </div>
+                                    </div>
+                                )
+                            })}
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <div className="postView2">
+                <div className="row">
+                    <div className="col-12">
+                        <div className='card-group-2'>
+                            {data.map(insta => {
+                                return (
+                                    <div className="cardIns" key={insta.id}>
+                                        <div className="imgIns">
+                                            <img src={insta.image} alt='Instagram post' style={{ width: 150, height: 150 }} />
+                                        </div>
+                                    </div>
+                                )
+                            })}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div >
     )
 }
 
