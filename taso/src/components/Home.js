@@ -1,4 +1,5 @@
 import React from 'react'
+import data from './Insta/instagram.json'
 
 import About from './About/About'
 import Blog from './Blog/Blog'
@@ -19,9 +20,9 @@ const Home = () => {
                         <div className="row h-100">
                             <div className="col-12">
                                 <div className="welcome">
-                                    {/* <h1 style={{ textTransform: 'uppercase' }} >
+                                    <h1 style={{ textTransform: 'uppercase' }} >
                     Something to say welcome here!
-                  </h1> */}
+                  </h1>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +60,7 @@ const Home = () => {
                             </h1>
                             <p className="content">Katso uusin Instagram-julkaisumme <span>täältä</span></p>
                         </div>
-                        <Insta />
+                        <Insta slides={data}/>
                     </div>
                 </section>
                 {/*Events calendar view*/}

@@ -4,30 +4,29 @@
 
 .wrapper {
   height: 100%;
-  background-image: url("./images/bg2.png"),
-    url('./images/bg1.png'),
-    url('./images/bg3.png'),
-    url('./images/bg4.png'),
-    url('./images/bg5.png'), url('./images/Polygon.png'), url('./images/Polygon1.png'), url('./images/Polygon2.png');
+  background-image: url("./images/background/bg1.png"),
+    url('./images/background/bg2.png'),
+    url('./images/background/bg3.png'),
+    url('./images/background/bg4.png'),
+    url('./images/background/bg5.png'), url('./images/background/Polygon.png'), url('./images/background/Polygon1.png'), url('./images/background/Polygon2.png');
   background-repeat: no-repeat;
   background-position: 100% 18%, 100% 50%, 0% 36%, 100% 73%, 0% 95%, 20% 19%, 97% 93%, 5% 60% ;
 }
 
-/*Image link (bg.gif): https://www.deviantart.com/franticdreamer/art/Retrowave-Synthwave-Road-Loop-CC0-888400181*/
-/*Image link (background.gif): https://www.deviantart.com/kirokaze/art/Wallpaper-Engine-910182823*/
+/*Image link: https://studyineurope.com.sg/university/tampere-university-of-applied-sciences/*/
 .banner {
   position: relative;
-  background-image: url('./images/background.gif');
+  background-image: url('./images/background/wrapper.jpg');
   height: 800px;
   margin-top: 53px;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 100%;
 }
-
+   
 .welcome {
   text-align: center;
-  top: 35%;
+  top: 25%;
   position: relative;
 
 }
