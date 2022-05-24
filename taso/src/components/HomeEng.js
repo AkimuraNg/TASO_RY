@@ -47,7 +47,7 @@ const Home = () => {
                             <h1 style={{ marginTop: "160px", textTransform: "uppercase" }} className="text-color">
                                 Blogs & News
                             </h1>
-                            <p className="content">Check our latest blogs and news <span>here</span></p>
+                            <p className="content">Check our latest blogs and news <span>Here</span>!</p>
                         </div>
                         <Blog />
                     </div>
@@ -58,8 +58,8 @@ const Home = () => {
                                 Our Instagram
                             </h1>
                             <p className="content">Check our latest Instagram posts <span>
-                                <a href="https://www.instagram.com/tasory_ig/?igshid=1r12zbt2fk06x" target="_blank" rel="noreferrer" style={{ color: "rgba(118, 0, 85, 0.65)" }}>täältä</a>
-                            </span></p>
+                                <a href="https://www.instagram.com/tasory_ig/?igshid=1r12zbt2fk06x" target="_blank" rel="noreferrer" style={{ color: "rgba(118, 0, 85, 0.65)" }}>Here</a>
+                            </span>!</p>
                         </div>
                         <Insta />
                     </div>
