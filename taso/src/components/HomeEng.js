@@ -19,9 +19,9 @@ const Home = () => {
                         <div className="row h-100">
                             <div className="col-12">
                                 <div className="welcome">
-                                    {/* <h1 style={{ textTransform: 'uppercase' }} >
-                    Something to say welcome here!
-                  </h1> */}
+                                    <h1 style={{ textTransform: 'uppercase' }} >
+                                        Welcome to TASO RY
+                                    </h1>
                                 </div>
                             </div>
                         </div>
@@ -44,7 +44,7 @@ const Home = () => {
                 <section className="blogInsta mb-5" >
                     <div className='col-12'>
                         <div className="titleView">
-                            <h1 style={{ marginTop: "50px", textTransform: "uppercase" }} className="text-color">
+                            <h1 style={{ marginTop: "160px", textTransform: "uppercase" }} className="text-color">
                                 Blogs & News
                             </h1>
                             <p className="content">Check our latest blogs and news <span>here</span></p>

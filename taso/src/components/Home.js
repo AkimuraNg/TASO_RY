@@ -21,8 +21,8 @@ const Home = () => {
                             <div className="col-12">
                                 <div className="welcome">
                                     <h1 style={{ textTransform: 'uppercase' }} >
-                    Something to say welcome here!
-                  </h1>
+                                        Tervetuola
+                                    </h1>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ const Home = () => {
                 <section className="blogInsta mb-5" >
                     <div className='col-12'>
                         <div className="titleView">
-                            <h1 style={{ marginTop: "50px", textTransform: "uppercase" }} className="text-color">
+                            <h1 style={{ marginTop: "160px", textTransform: "uppercase" }} className="text-color">
                                 Blogit & Uutiset
                             </h1>
                             <p className="content">Katso uusimmat blogit ja uutiset <span>täältä</span></p>
@@ -60,7 +60,7 @@ const Home = () => {
                             </h1>
                             <p className="content">Katso uusin Instagram-julkaisumme <span>täältä</span></p>
                         </div>
-                        <Insta slides={data}/>
+                        <Insta slides={data} />
                     </div>
                 </section>
                 {/*Events calendar view*/}
@@ -73,8 +73,8 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-            {/*Footer*/}
-            <Footer/>
+                {/*Footer*/}
+                <Footer />
             </main>
 
         </div>
