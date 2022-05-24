@@ -1,5 +1,6 @@
 import React from 'react'
 import data from './Insta/instagram.json'
+import { Link } from 'react-router-dom'
 
 import About from './About/About'
 import Blog from './Blog/Blog'
@@ -48,7 +49,8 @@ const Home = () => {
                             <h1 style={{ marginTop: "160px", textTransform: "uppercase" }} className="text-color">
                                 Blogit & Uutiset
                             </h1>
-                            <p className="content">Katso uusimmat blogit ja uutiset <span>täältä</span></p>
+                            <p className="content">Katso uusimmat blogit ja uutiset <span> täältä</span>
+                            </p>
                         </div>
                         <Blog />
                     </div>
@@ -58,9 +60,12 @@ const Home = () => {
                             <h1 style={{ marginTop: "25px", textTransform: "uppercase" }} className="text-color">
                                 Instagram
                             </h1>
-                            <p className="content">Katso uusin Instagram-julkaisumme <span>täältä</span></p>
+                            <p className="content">Katso uusin Instagram-julkaisumme <span>
+                                    <a href="https://www.instagram.com/tasory_ig/?igshid=1r12zbt2fk06x" target="_blank" rel="noreferrer" style={{ color: "rgba(118, 0, 85, 0.65)" }}>täältä</a>
+                                </span>
+                            </p>
                         </div>
-                        <Insta slides={data} />
+                        <Insta />
                     </div>
                 </section>
                 {/*Events calendar view*/}

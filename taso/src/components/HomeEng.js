@@ -57,7 +57,9 @@ const Home = () => {
                             <h1 style={{ marginTop: "25px", textTransform: "uppercase" }} className="text-color">
                                 Our Instagram
                             </h1>
-                            <p className="content">Check our latest Instagram posts <span>here</span></p>
+                            <p className="content">Check our latest Instagram posts <span>
+                                <a href="https://www.instagram.com/tasory_ig/?igshid=1r12zbt2fk06x" target="_blank" rel="noreferrer" style={{ color: "rgba(118, 0, 85, 0.65)" }}>täältä</a>
+                            </span></p>
                         </div>
                         <Insta />
                     </div>
