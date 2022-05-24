@@ -57,8 +57,8 @@ const Footer = () => {
                         </div>
                         <div className="col-md-3 text-white" style={{ textAlign: 'center', display: 'flex', justifyContent: 'center' }}>
                             <div className="follow">
-                                <img src={Facebook} alt="Facebook" className="socialLogo" />
-                                <img src={Instagram} alt="Instagram" />
+                                    <img src={Facebook} alt="Facebook" className="socialLogo" />
+                                    <img src={Facebook} alt="Facebook" className="socialLogo" />
                             </div>
                             <button className="btn btn-feedback text-white" type="button" data-bs-toggle="modal" data-bs-target="#FeedbackModal">Palaute</button>
                         </div>
