@@ -1,11 +1,29 @@
 .aboutContent {
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     margin-left: 80px;
+    justify-content: center;
+}
+.cardAbout{
+    max-width: 100%;
+    border: 2px solid rgba(118, 0, 85, 0.65);
+    box-shadow: -6px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+.aboutImg{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.about-image{
+    width: auto;
+    height: 400px
 }
 .membersView {
-    margin-top: 120px;
+    margin-top: 68px;
 }
 
 .membersView2 {
@@ -13,8 +31,7 @@
 }
 
 .card-group-members {
-    margin-left: 140px;
-    margin-top: 50px;
+    text-align: center;
 }
 
 .item {
@@ -38,14 +55,14 @@
 
 .cardMem {
     display: inline-block;
-    padding: 24px;
-    border: 2px solid rgba(118, 0, 85, 0.65);
+    /* padding: 24px; */
+    /* border: 2px solid rgba(118, 0, 85, 0.65);
     box-shadow: -6px 6px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
-    height: 350px;
+    border-radius: 8px; */
+    height: 200px;
     width: 280px;
     margin-left: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .cardMem .face {
@@ -126,6 +143,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .aboutImageCarousel{
+        display: none;
+    }
     .aboutContent {
         margin-top: 20px;
         margin-left: 0px;
@@ -164,10 +184,21 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .about{
+        background-position: 105% 2.5%;
+        background-size: 50%;
+    }
+    .about-image{
+        height: 280px
+    }
+    .aboutImg{
+        margin-left: 0px;
+        margin-top: 50px;
+    }
     .aboutContent{
         margin-top: 0px;
         font-size: 14px;
-        margin-left: 20px;
+        margin-left: 0px;
     }
     .membersView{
         margin-top: 20px;
@@ -195,5 +226,13 @@
     }
     .aboutContent{
         font-size: 24px;
+    }
+    .about-image{
+        width: auto;
+        height: 500px
+    }
+    .aboutImg{
+        margin-left: 0px;
+        margin-top: 50px;
     }
 }
