@@ -1,6 +1,5 @@
 import React from 'react'
-import data from './Insta/instagram.json'
-import { Link } from 'react-router-dom'
+// import data from './Insta/instagram.json'
 
 import About from './About/About'
 import Blog from './Blog/Blog'
