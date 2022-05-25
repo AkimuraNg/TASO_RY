@@ -4,62 +4,62 @@
         "name": "Matti Hämelahti",
         "role": "Puheenjohtaja",
         "title": "Chairman",
-        "email": "xxx.yy@tuni.fi"
+        "email": "Matti.Hamelahti@tuni.fi"
     },
     {
         "id": 2,
         "name": "Juuse Hannula",
         "role": "Varapuheenjohtaja",
         "title": "Vice Chairman",
-        "email": "xxx.yy@tuni.fi"
+        "email": "Juuse.Hannula@tuni.fi"
     },
     {
         "id": 3,
         "name": "Samuli Marttila",
         "role": "Rahastonhoitaja",
         "title": "Treasurer",
-        "email": "xxx.yy@tuni.fi"
+        "email": "Samuli.Marttila@tuni.fi"
     },
     {
         "id": 4,
         "name": "Lumi Vainio",
         "role": "Sihteeri",
         "title": "Secretary",
-        "email": "xxx.yy@tuni.fi"
+        "email": "Lumi.Vainio@tuni.fi"
     },
     {
         "id": 5,
         "name": "Juuso Torikka",
         "role": "Koulutuspoliittinen Vastaava",
         "title": "Educational Affairs",
-        "email": "xxx.yy@tuni.fi"
+        "email": "Juuso.Torikka@tuni.fi"
     },
     {
         "id": 6,
         "name": "Mika Haapanen",
         "role": "Tapahtumavastaava",
         "title": "Events Coordinator",
-        "email": "xxx.yy@tuni.fi"
+        "email": "Mika.Haapanen@tuni.fi"
     },
     {
         "id": 7,
         "name": "Enni Heinonen",
         "role": "Yhteistyövastaava",
         "title": "Cooperations Coordinator",
-        "email": "xxx.yy@tuni.fi"
+        "email": "Enni.Heinonen@tuni.fi"
     },
     {
         "id": 8,
         "name": "Markus Korpela",
         "role": "Tila-ja Jäsenvastaava",
         "title": "Facility and Members Coordinator",
-        "email": "xxx.yy@tuni.fi"
+        "email": "Markus.Korpela@tuni.fi"
     },
     {
         "id": 9,
         "name": "Sampo Mykkänen",
         "role": "Somevastaava",
         "title": "Social Media Coordinator",
-        "email": "xxx.yy@tuni.fi"
+        "email": "Sampo.Mykkanen@tuni.fi"
     }
 ]

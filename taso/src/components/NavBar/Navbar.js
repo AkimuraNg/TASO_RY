@@ -24,11 +24,13 @@ const Navbar = () => {
                                 <Link className="nav-link text-white" to="about">meistä</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-white " to="blogInsta">blogit</Link>
+                                <Link className="nav-link text-white " to="blog">blogit</Link>
+                            </li><li className="nav-item">
+                                <Link className="nav-link text-white " to="instagram">Instagram</Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-link text-white" to="events">tapahtumat</Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <Navigate to="/Eng" className="nav-link text-white">english</Navigate>
                             </li>

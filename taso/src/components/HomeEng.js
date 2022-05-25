@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import AboutE from './About/AboutE'
 import Blog from './Blog/Blog'
@@ -43,31 +43,33 @@ const Home = () => {
                 </section>
 
                 {/*Blogs and Instagram view*/}
-                <section className="blogInsta mb-5" >
+                <section className="blog mb-5" >
                     <div className='col-12'>
                         <div className="titleView">
                             <h1 style={{ marginTop: "160px", textTransform: "uppercase" }} className="text-color">
                                 Blogs & News
                             </h1>
-                            <p className="content">Check our latest blogs and news <span><Link to="/Blogs/1" element={<Blogs/>} style={{ color: "rgba(118, 0, 85, 0.65)" }} >Here</Link></span>!</p>
+                            <p className="content">Check our latest blogs and news <span><Link to="/Blogs/1" element={<Blogs />} style={{ color: "rgba(118, 0, 85, 0.65)" }} >Here</Link></span>!</p>
                         </div>
                         <Blog />
                     </div>
-
+                </section>
+                <section className="instagram">
                     <div className="col-12">
                         <div className="titleView">
-                            <h1 style={{ marginTop: "25px", textTransform: "uppercase" }} className="text-color">
-                                Our Instagram
+                            <h1 style={{ marginTop: "100px", textTransform: "uppercase" }} className="text-color">
+                                Instagram
                             </h1>
                             <p className="content">Check our latest Instagram posts <span>
                                 <a href="https://www.instagram.com/tasory_ig/?igshid=1r12zbt2fk06x" target="_blank" rel="noreferrer" style={{ color: "rgba(118, 0, 85, 0.65)" }}>Here</a>
-                            </span>!</p>
+                            </span>
+                                !</p>
                         </div>
                         <Insta />
                     </div>
                 </section>
                 {/*Events calendar view*/}
-                <section className="events">
+                {/* <section className="events">
                     <div className="col-12">
                         <div className="titleView">
                             <h1 style={{ marginTop: "28px", textTransform: "uppercase" }} className="text-color">
@@ -75,7 +77,7 @@ const Home = () => {
                             </h1>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 {/*Footer*/}
                 <FooterEng />
             </main>

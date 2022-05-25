@@ -43,7 +43,7 @@ const Home = () => {
                 </section>
 
                 {/*Blogs and Instagram view*/}
-                <section className="blogInsta mb-5" >
+                <section className="blog mb-5" >
                     <div className='col-12'>
                         <div className="titleView">
                             <h1 style={{ marginTop: "160px", textTransform: "uppercase" }} className="text-color">
@@ -56,10 +56,11 @@ const Home = () => {
                         </div>
                         <Blog />
                     </div>
-
+                </section>
+                <section className="instagram">
                     <div className="col-12">
                         <div className="titleView">
-                            <h1 style={{ marginTop: "25px", textTransform: "uppercase" }} className="text-color">
+                            <h1 style={{ marginTop: "100px", textTransform: "uppercase" }} className="text-color">
                                 Instagram
                             </h1>
                             <p className="content">Katso uusin Instagram-julkaisumme <span>
@@ -71,15 +72,16 @@ const Home = () => {
                     </div>
                 </section>
                 {/*Events calendar view*/}
-                <section className="events">
+                {/* <section className="events">
                     <div className="col-12">
                         <div className="titleView">
                             <h1 style={{ marginTop: "28px", textTransform: "uppercase" }} className="text-color">
                                 Tapahtumat
                             </h1>
                         </div>
+                        
                     </div>
-                </section>
+                </section> */}
                 {/*Footer*/}
                 <Footer />
             </main>

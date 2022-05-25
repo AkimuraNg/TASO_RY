@@ -24,10 +24,10 @@ const NavbarE = () => {
                                 <Link className="nav-link text-white" to="about">About Us</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-white " to="blogInsta">Blogs</Link>
+                                <Link className="nav-link text-white " to="blog">Blogs</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-white" to="events">Events</Link>
+                                <Link className="nav-link text-white" to="instagram">Instagram</Link>
                             </li>
                             <li className="nav-item">
                                 <Navigate to="/" className="nav-link text-white">Suomalainen</Navigate>

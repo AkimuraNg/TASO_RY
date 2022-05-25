@@ -30,7 +30,7 @@
   position: relative;
   color: rgba(118, 0, 85, 0.65);
   top: 20%;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Mali', cursive;
 }
 .welcome >h1{
   font-size: 100px;
@@ -107,12 +107,16 @@ span {
   }
 
   .banner {
-    background-image: none;
+    background-image: url('./images/logo.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 20% 50%;
   }
 
   .about {
     text-align: center;
     background-image: none;
+    margin-top: 0px;
   }
 
   .welcome {
@@ -122,7 +126,7 @@ span {
   }
 
   .welcome>h1 {
-    color: rgba(118, 0, 85, 0.65);
+    display: none;
   }
 
   .footer {
@@ -157,8 +161,8 @@ span {
   }
 
   .banner {
-    height: 529px;
-    margin-top: 67px;
+    height: 400px;
+    margin-top: 76px;
   }
 
   .welcome>h1 {

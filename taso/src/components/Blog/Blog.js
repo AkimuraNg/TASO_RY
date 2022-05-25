@@ -8,28 +8,28 @@ const Blog = () => {
             <div className="blogPost1">
                 <div className="row">
                     <div id="carouselBlog" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
+                        <div class="carousel-inner justify-content-center">
                             <div class="carousel-item active" data-bs-interval="3000">
                                 <div className="card-wrapper" >
                                     <div className="card">
                                         <img src={Image} className="card-img-top" alt="..." />
                                         <div className="card-body" style={{ textAlign: 'center' }}>
-                                            <h5 className="card-title">Card title 1</h5>
-                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <h5 className="card-title">Blog title 1</h5>
+                                            <p className="card-text">Some quick example text to build on the Blog title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
                                     <div className="card">
                                         <img src={Image} className="card-img-top" alt="..." />
                                         <div className="card-body" style={{ textAlign: 'center' }}>
-                                            <h5 className="card-title">Card title 2</h5>
-                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <h5 className="card-title">Blog title 2</h5>
+                                            <p className="card-text">Some quick example text to build on the Blog title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
                                     <div className="card">
                                         <img src={Image} className="card-img-top" alt="..." />
                                         <div className="card-body" style={{ textAlign: 'center' }}>
-                                            <h5 className="card-title">Card title 3</h5>
-                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <h5 className="card-title">Blog title 3</h5>
+                                            <p className="card-text">Some quick example text to build on the Blog title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -40,22 +40,22 @@ const Blog = () => {
                                     <div className="card">
                                         <img src={Image} className="card-img-top" alt="..." />
                                         <div className="card-body" style={{ textAlign: 'center' }}>
-                                            <h5 className="card-title">Card title 4</h5>
-                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <h5 className="card-title">Blog title 4</h5>
+                                            <p className="card-text">Some quick example text to build on the Blog title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
                                     <div className="card">
                                         <img src={Image} className="card-img-top" alt="..." />
                                         <div className="card-body" style={{ textAlign: 'center' }}>
-                                            <h5 className="card-title">Card title 5</h5>
-                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <h5 className="card-title">Blog title 5</h5>
+                                            <p className="card-text">Some quick example text to build on the Blog title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
                                     <div className="card">
                                         <img src={Image} className="card-img-top" alt="..." />
                                         <div className="card-body" style={{ textAlign: 'center' }}>
-                                            <h5 className="card-title">Card title 6</h5>
-                                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <h5 className="card-title">Blog title 6</h5>
+                                            <p className="card-text">Some quick example text to build on the Blog title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -80,8 +80,8 @@ const Blog = () => {
                                 <div className="card">
                                     <img src={Image} className="card-img-top" alt="..." />
                                     <div className="card-body" style={{ textAlign: 'center' }}>
-                                        <h5 className="card-title">Card title 1</h5>
-                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 className="card-title">Blog title 1</h5>
+                                        <p className="card-text">Some quick example text to build on the Blog title and make up the bulk of the card's content.</p>
                                         <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
@@ -90,8 +90,8 @@ const Blog = () => {
                                 <div className="card">
                                     <img src={Image} className="card-img-top" alt="..." />
                                     <div className="card-body" style={{ textAlign: 'center' }}>
-                                        <h5 className="card-title">Card title 2</h5>
-                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 className="card-title">Blog title 2</h5>
+                                        <p className="card-text">Some quick example text to build on the Blog title and make up the bulk of the card's content.</p>
                                         <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
@@ -100,8 +100,8 @@ const Blog = () => {
                                 <div className="card">
                                     <img src={Image} className="card-img-top" alt="..." />
                                     <div className="card-body" style={{ textAlign: 'center' }}>
-                                        <h5 className="card-title">Card title 3</h5>
-                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 className="card-title">Blog title 3</h5>
+                                        <p className="card-text">Some quick example text to build on the Blog title and make up the bulk of the card's content.</p>
                                         <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
@@ -110,8 +110,8 @@ const Blog = () => {
                                 <div className="card">
                                     <img src={Image} className="card-img-top" alt="..." />
                                     <div className="card-body" style={{ textAlign: 'center' }}>
-                                        <h5 className="card-title">Card title 4</h5>
-                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 className="card-title">Blog title 4</h5>
+                                        <p className="card-text">Some quick example text to build on the Blog title and make up the bulk of the card's content.</p>
                                         <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
@@ -120,8 +120,8 @@ const Blog = () => {
                                 <div className="card">
                                     <img src={Image} className="card-img-top" alt="..." />
                                     <div className="card-body" style={{ textAlign: 'center' }}>
-                                        <h5 className="card-title">Card title 5</h5>
-                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 className="card-title">Blog title 5</h5>
+                                        <p className="card-text">Some quick example text to build on the Blog title and make up the bulk of the card's content.</p>
                                         <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
@@ -130,8 +130,8 @@ const Blog = () => {
                                 <div className="card">
                                     <img src={Image} className="card-img-top" alt="..." />
                                     <div className="card-body" style={{ textAlign: 'center' }}>
-                                        <h5 className="card-title">Card title 6</h5>
-                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 className="card-title">Blog title 6</h5>
+                                        <p className="card-text">Some quick example text to build on the Blog title and make up the bulk of the card's content.</p>
                                         <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
