@@ -18,6 +18,9 @@ const NavbarE = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto">
                             <li className="nav-item">
+                                <Navigate className="nav-link text-white" to="/Eng">Home</Navigate>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link text-white" to="about">About Us</Link>
                             </li>
                             <li className="nav-item">
