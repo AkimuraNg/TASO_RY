@@ -1,11 +1,12 @@
 import React from 'react'
-// import data from './Insta/instagram.json'
+import { Link } from 'react-router-dom'
 
 import About from './About/About'
 import Blog from './Blog/Blog'
 import Insta from './Insta/Insta';
 import Navbar from './NavBar/Navbar'
 import Footer from './Footer';
+import Blogs from './Blog_Page/Blogs'
 
 const Home = () => {
     return (
@@ -48,7 +49,9 @@ const Home = () => {
                             <h1 style={{ marginTop: "160px", textTransform: "uppercase" }} className="text-color">
                                 Blogit & Uutiset
                             </h1>
-                            <p className="content">Katso uusimmat blogit ja uutiset <span> täältä</span>
+                            <p className="content">Katso uusimmat blogit ja uutiset <span>
+                                <Link to="/Blogs/1" element={<Blogs />} style={{ color: "rgba(118, 0, 85, 0.65)" }}>täältä</Link>
+                            </span>
                             </p>
                         </div>
                         <Blog />
@@ -60,8 +63,8 @@ const Home = () => {
                                 Instagram
                             </h1>
                             <p className="content">Katso uusin Instagram-julkaisumme <span>
-                                    <a href="https://www.instagram.com/tasory_ig/?igshid=1r12zbt2fk06x" target="_blank" rel="noreferrer" style={{ color: "rgba(118, 0, 85, 0.65)" }}>täältä</a>
-                                </span>
+                                <a href="https://www.instagram.com/tasory_ig/?igshid=1r12zbt2fk06x" target="_blank" rel="noreferrer" style={{ color: "rgba(118, 0, 85, 0.65)" }}>täältä</a>
+                            </span>
                             </p>
                         </div>
                         <Insta />
