@@ -46,21 +46,21 @@ const Blogs = () => {
           <nav aria-label="Page navigation">
             <ul className="pagination">
               <li className="page-item">
-                <a className="page-link" href={`/blogs/${previous}`}>
+                <a className="page-link" href={`/Blogs/${previous}`}>
                   Previous
                 </a>
               </li>
 
               {pages.map((page) => (
                 <li className="page-item" key={page}>
-                  <a className="page-link" href={`/blogs/${page + 1}`}>
+                  <a className="page-link" href={`/Blogs/${page + 1}`}>
                     {page + 1}
                   </a>
                 </li>
               ))}
 
               <li className="page-item">
-                <a className="page-link" href={`/blogs/${next}`}>
+                <a className="page-link" href={`/Blogs/${next}`}>
                   Next
                 </a>
               </li>
