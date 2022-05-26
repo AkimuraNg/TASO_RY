@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import Footer from "../Footer";
 import Navbar from "../NavBar/Navbar";
 import BlogCard from "./BlogComponents/BlogCard";
@@ -46,23 +46,23 @@ const Blogs = () => {
           <nav aria-label="Page navigation">
             <ul className="pagination">
               <li className="page-item">
-                <a className="page-link" href={`/Blogs/${previous}`}>
+                <Link className="page-link" to={`/Blogs/${previous}`}>
                   Previous
-                </a>
+                </Link>
               </li>
 
               {pages.map((page) => (
                 <li className="page-item" key={page}>
-                  <a className="page-link" href={`/Blogs/${page + 1}`}>
+                  <Link className="page-link" to={`/Blogs/${page + 1}`}>
                     {page + 1}
-                  </a>
+                  </Link>
                 </li>
               ))}
 
               <li className="page-item">
-                <a className="page-link" href={`/Blogs/${next}`}>
+                <Link className="page-link" to={`/Blogs/${next}`}>
                   Next
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
