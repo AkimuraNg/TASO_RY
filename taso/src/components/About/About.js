@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css'
-import Image from '../../images/card-image-top.png'
 import members from './members.json'
 
 const About = () => {
@@ -69,7 +68,7 @@ const About = () => {
                                 <div className="cardMem" key={post.id}>
                                     <div className='face face1'>
                                         <div className="memberContent">
-                                            <img src={Image} className="img-fluid rounded-start" alt="..." />
+                                            <img src={post.avatar} className="img-fluid rounded-start" alt="..." />
                                             <h3>{post.name}</h3>
                                         </div>
                                         <div className='face face2'>

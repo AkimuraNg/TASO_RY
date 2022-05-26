@@ -12,21 +12,21 @@ const Blog = () => {
                             <div class="carousel-item active" data-bs-interval="3000">
                                 <div className="card-wrapper" >
                                     <div className="card">
-                                        <img src={Image} className="card-img-top" alt="..." />
+                                        <img src="https://picsum.photos/500/320?grayscale" className="card-img-top" alt="..." />
                                         <div className="card-body" style={{ textAlign: 'center' }}>
                                             <h5 className="card-title">Blog title 1</h5>
                                             <p className="card-text">Some quick example text to build on the Blog title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
                                     <div className="card">
-                                        <img src={Image} className="card-img-top" alt="..." />
+                                        <img src="https://picsum.photos/500/320?blur=1" className="card-img-top" alt="..." />
                                         <div className="card-body" style={{ textAlign: 'center' }}>
                                             <h5 className="card-title">Blog title 2</h5>
                                             <p className="card-text">Some quick example text to build on the Blog title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
                                     <div className="card">
-                                        <img src={Image} className="card-img-top" alt="..." />
+                                        <img src="https://picsum.photos/500/320" className="card-img-top" alt="..." />
                                         <div className="card-body" style={{ textAlign: 'center' }}>
                                             <h5 className="card-title">Blog title 3</h5>
                                             <p className="card-text">Some quick example text to build on the Blog title and make up the bulk of the card's content.</p>
@@ -38,21 +38,21 @@ const Blog = () => {
                             <div class="carousel-item" data-bs-interval="3000">
                                 <div className="card-wrapper" >
                                     <div className="card">
-                                        <img src={Image} className="card-img-top" alt="..." />
+                                        <img src="https://picsum.photos/id/100/500/320?grayscale&blur=2" className="card-img-top" alt="..." />
                                         <div className="card-body" style={{ textAlign: 'center' }}>
                                             <h5 className="card-title">Blog title 4</h5>
                                             <p className="card-text">Some quick example text to build on the Blog title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
                                     <div className="card">
-                                        <img src={Image} className="card-img-top" alt="..." />
+                                        <img src="https://picsum.photos/id/1003/500/320" className="card-img-top" alt="..." />
                                         <div className="card-body" style={{ textAlign: 'center' }}>
                                             <h5 className="card-title">Blog title 5</h5>
                                             <p className="card-text">Some quick example text to build on the Blog title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
                                     <div className="card">
-                                        <img src={Image} className="card-img-top" alt="..." />
+                                        <img src="https://picsum.photos/id/20/500/320?grayscale" className="card-img-top" alt="..." />
                                         <div className="card-body" style={{ textAlign: 'center' }}>
                                             <h5 className="card-title">Blog title 6</h5>
                                             <p className="card-text">Some quick example text to build on the Blog title and make up the bulk of the card's content.</p>

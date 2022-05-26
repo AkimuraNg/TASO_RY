@@ -4,62 +4,71 @@
         "name": "Matti Hämelahti",
         "role": "Puheenjohtaja",
         "title": "Chairman",
-        "email": "Matti.Hamelahti@tuni.fi"
+        "email": "Matti.Hamelahti@tuni.fi",
+        "avatar": "https://avatars.dicebear.com/api/bottts/yoda.svg"
     },
     {
         "id": 2,
         "name": "Juuse Hannula",
         "role": "Varapuheenjohtaja",
         "title": "Vice Chairman",
-        "email": "Juuse.Hannula@tuni.fi"
+        "email": "Juuse.Hannula@tuni.fi",
+        "avatar": "https://avatars.dicebear.com/api/bottts/juse.svg"
     },
     {
         "id": 3,
         "name": "Samuli Marttila",
         "role": "Rahastonhoitaja",
         "title": "Treasurer",
-        "email": "Samuli.Marttila@tuni.fi"
+        "email": "Samuli.Marttila@tuni.fi",
+        "avatar": "https://avatars.dicebear.com/api/bottts/samul.svg"
     },
     {
         "id": 4,
         "name": "Lumi Vainio",
         "role": "Sihteeri",
         "title": "Secretary",
-        "email": "Lumi.Vainio@tuni.fi"
+        "email": "Lumi.Vainio@tuni.fi",
+        "avatar": "https://avatars.dicebear.com/api/bottts/lumi.svg"
     },
     {
         "id": 5,
         "name": "Juuso Torikka",
         "role": "Koulutuspoliittinen Vastaava",
         "title": "Educational Affairs",
-        "email": "Juuso.Torikka@tuni.fi"
+        "email": "Juuso.Torikka@tuni.fi",
+        "avatar": "https://avatars.dicebear.com/api/bottts/juuso.svg"
     },
     {
         "id": 6,
         "name": "Mika Haapanen",
         "role": "Tapahtumavastaava",
         "title": "Events Coordinator",
-        "email": "Mika.Haapanen@tuni.fi"
+        "email": "Mika.Haapanen@tuni.fi",
+        "avatar": "https://avatars.dicebear.com/api/bottts/:aki.svg"
     },
     {
         "id": 7,
         "name": "Enni Heinonen",
         "role": "Yhteistyövastaava",
         "title": "Cooperations Coordinator",
-        "email": "Enni.Heinonen@tuni.fi"
+        "email": "Enni.Heinonen@tuni.fi",
+        "avatar": "https://avatars.dicebear.com/api/bottts/enni.svg"
     },
     {
         "id": 8,
         "name": "Markus Korpela",
         "role": "Tila-ja Jäsenvastaava",
         "title": "Facility and Members Coordinator",
-        "email": "Markus.Korpela@tuni.fi"
+        "email": "Markus.Korpela@tuni.fi",
+        "avatar": "https://avatars.dicebear.com/api/bottts/markus.svg"
     },
     {
         "id": 9,
         "name": "Sampo Mykkänen",
         "role": "Somevastaava",
         "title": "Social Media Coordinator",
-        "email": "Sampo.Mykkanen@tuni.fi"
+        "email": "Sampo.Mykkanen@tuni.fi",
+        "avatar": "https://avatars.dicebear.com/api/bottts/samp.svg"
     }
 ]
